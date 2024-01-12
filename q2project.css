@@ -1,0 +1,70 @@
+body {
+	color: #f4f2d6;	
+	background-color: #a6f5ed;
+	background-image: linear-gradient(to top, #34c0eb, #a6f5ed);
+	background-attachment: fixed;
+
+}
+
+header {
+	text-align: center;
+	color: #f4f2d6;
+	background-color: #4982ad;
+	background-image: url("https://beta.tourism.gov.ph/wp-content/uploads/2022/02/2-4.png");
+	background-position: center;
+	padding: 10px 0px;
+}
+	
+hr {
+	border: 1px solid #b83b12;
+}
+
+section1 {
+	text-align: center;
+	color: #b83b12
+
+}
+
+section2 {
+	color: #f4f2d6;
+}
+
+section3 {
+	display: flex;
+	justify-content: center;
+	column-gap: 10px;
+}
+
+img {
+	width: 350px;
+	height: 250px;
+}
+
+footer {
+	text-align: center;
+	color: #b83b12;
+}
+
+.description {
+	border: 1px solid #4982ad;
+	border-radius: 10px;
+	text-align: center;
+	width: 600px;
+	background-color: #4982ad;
+	margin: auto;
+	font-size: 20px;
+}
+
+.places {
+	display: block;
+	color: #f4f2d6;
+	border: 1px solid #b83b12;
+	border-radius: 10px;
+	text-align: center;
+	width: 400px;
+	height: 250px;
+	background-color: #b83b12;
+	flex-wrap: wrap;
+	margin: 5px;
+	font-size: 20px;
+}
